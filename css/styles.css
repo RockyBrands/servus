@@ -383,10 +383,6 @@ a.btn:active {
     flex-wrap: wrap;
 }
 
-#store-locator .national-chains section::after {
-
-}
-
 #store-locator .national-chains address {
     flex: 1 1 25%;
     margin: 0 2rem 3rem 2rem;
@@ -634,7 +630,7 @@ footer li a:hover {
         flex: 1 1 45%;
     }
 
-    #store-locator section::after {
+    #store-locator .national-chains section::after {
         flex: 1 1 30rem;
         margin: 4.5rem 20% 0 20%;
     }
