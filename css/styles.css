@@ -619,6 +619,11 @@ footer li a:hover {
         padding-top: 3rem;
     }
 
+    #viral-resistance > *{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
     #store-locator>div {
         display: flex;
         flex-flow: column wrap;
