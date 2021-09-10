@@ -92,7 +92,7 @@ nav[aria-label="Main"] {
     left: 0;
     right: 0;
     margin: 0 auto;
-    transition: 0.2s;
+    transition: background-color 0.2s;
     width: 100%;
     height: 130px;
     z-index: 10;
@@ -113,7 +113,7 @@ nav[aria-label="Main"] div {
 
 nav[aria-label="Main"] ul {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 nav[aria-label="Main"] a {
@@ -202,6 +202,30 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    font-family: 'Archivo Extra Condensed', 'Arial Black', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #363636;
+    text-transform: uppercase;
+}
+
+.h4  {
+    font-family: 'Archivo Extra Condensed', 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ef3c43;
+    text-transform: uppercase;
+}
+
+.h5 {
+    font-family: 'Archivo Extra Condensed', 'Arial Black', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #363636;
+    text-transform: uppercase;
+}
+
 p {
     font-family: 'Archivo', Arial, sans-serif;
     font-size: 1.5rem;
@@ -229,7 +253,7 @@ a.btn {
     margin: 5rem auto 0 auto;
     min-width: 280px;
     padding: 1.5rem;
-    transition: .2s;
+    transition: background-color .2s;
     font-weight: 700;
     font-size: 2rem;
 }
@@ -350,8 +374,22 @@ a.btn:active {
 #store-locator>div {
     display: flex;
     flex-flow: column wrap;
-    max-height: 2800px;
+    max-height: 2200px;
     width: 100%;
+}
+
+#store-locator .national-chains section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#store-locator .national-chains section::after {
+
+}
+
+#store-locator .national-chains address {
+    flex: 1 1 25%;
+    margin: 0 2rem 3rem 2rem;
 }
 
 /* Contact */
@@ -588,8 +626,17 @@ footer li a:hover {
     #store-locator>div {
         display: flex;
         flex-flow: column wrap;
-        max-height: 4300px;
+        max-height: 3150px;
         width: 100%;
+    }
+
+    #store-locator .national-chains address {
+        flex: 1 1 45%;
+    }
+
+    #store-locator section::after {
+        flex: 1 1 30rem;
+        margin: 4.5rem 20% 0 20%;
     }
 
     #contact div,
