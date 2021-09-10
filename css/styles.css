@@ -210,7 +210,7 @@ h4 {
     text-transform: uppercase;
 }
 
-.h4  {
+.h4 {
     font-family: 'Archivo Extra Condensed', 'Arial Black', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
@@ -344,6 +344,10 @@ a.btn:active {
     background-color: #636363;
 }
 
+#store-locator .national-chains section::after {
+    display:none;
+}
+
 #store-locator address {
     color: rgba(43, 45, 53, 0.75);
     font-family: 'Archivo',
@@ -374,7 +378,7 @@ a.btn:active {
 #store-locator>div {
     display: flex;
     flex-flow: column wrap;
-    max-height: 2200px;
+    max-height: 3360px;
     width: 100%;
 }
 
@@ -619,7 +623,7 @@ footer li a:hover {
         padding-top: 3rem;
     }
 
-    #viral-resistance > *{
+    #viral-resistance>* {
         box-sizing: border-box;
         width: 100%;
     }
@@ -627,7 +631,7 @@ footer li a:hover {
     #store-locator>div {
         display: flex;
         flex-flow: column wrap;
-        max-height: 3150px;
+        max-height: 5000px;
         width: 100%;
     }
 
@@ -636,6 +640,7 @@ footer li a:hover {
     }
 
     #store-locator .national-chains section::after {
+        display: flex;
         flex: 1 1 30rem;
         margin: 4.5rem 20% 0 20%;
     }
