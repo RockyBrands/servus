@@ -348,6 +348,10 @@ a.btn:active {
     display:none;
 }
 
+#store-locator .h5 {
+    display: block;
+}
+
 #store-locator address {
     color: rgba(43, 45, 53, 0.75);
     font-family: 'Archivo',
