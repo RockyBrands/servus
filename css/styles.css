@@ -345,7 +345,7 @@ a.btn:active {
 }
 
 #store-locator .national-chains section::after {
-    display:none;
+    background-color: #FFFFFF;
 }
 
 #store-locator .h5 {
@@ -386,14 +386,8 @@ a.btn:active {
     width: 100%;
 }
 
-#store-locator .national-chains section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#store-locator .national-chains address {
-    flex: 1 1 25%;
-    margin: 0 2rem 3rem 2rem;
+#store-locator>.national-chains {
+    max-height: 800px;
 }
 
 /* Contact */
@@ -639,6 +633,10 @@ footer li a:hover {
         width: 100%;
     }
 
+    #store-locator>.national-chains {
+        max-height: 1120px;
+    }
+
     #store-locator .national-chains address {
         flex: 1 1 45%;
     }
@@ -683,7 +681,9 @@ footer li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    #store-locator>div {
+
+    #store-locator>div,
+    #store-locator>.national-chains {
         display: flex;
         flex-flow: column wrap;
         max-height: 1000000px;
